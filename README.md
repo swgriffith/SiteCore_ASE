@@ -17,71 +17,48 @@ In order to deploy this template you will need the following:
 
 ## Parameters File
 The following parameters are required to deploy this template:
-#### test
 
-#### Location
-Deployment Location
+**Location:** Deployment Location
 
-#### AppName
-Base Name Used for Various Components
+**AppName:** Base Name Used for Various Components
 
-#### ASE-Name
-App Service Environment Name
+**ASE-Name:** App Service Environment Name
 
-#### ASE-ResourceID
-Resource ID for the ASE
+**ASE-ResourceID:** Resource ID for the ASE
 
-#### ASE-Plan-ResourceID
-Resource ID for the pre-created App Service Plan
+**ASE-Plan-ResourceID:** Resource ID for the pre-created App Service Plan
 
-#### sitecoreAdminPassword
-Password for the sitecore admin user
+**sitecoreAdminPassword:** Password for the sitecore admin user
 
-#### sqlServerFqdn
-Name to be used for the Azure SQL instance
+**sqlServerFqdn:** Name to be used for the Azure SQL instance
 
-#### sqlServerLogin
-SQL Server user ID
+**sqlServerLogin:** SQL Server user ID
 
-#### sqlServerPassword
-SQL Server Password
+**sqlServerPassword:** SQL Server Password
 
-#### sitecoreDBUserName
-Base SiteCore DB User Name
+**sitecoreDBUserName:** Base SiteCore DB User Name
 
-#### sitecoreDBPassword
-Base SiteCore DB Password
+**sitecoreDBPassword:** Base SiteCore DB Password
 
-#### repReportingSqlDatabaseUserName
-Reporting Database User Name
+**repReportingSqlDatabaseUserName:** Reporting Database User Name
 
-#### repReportingSqlDatabasePassword
-Reporting Database Password
+**repReportingSqlDatabasePassword:** Reporting Database Password
 
-#### analyticsConnectionString
-Analytics Mongo DB Connection String
+**analyticsConnectionString:** Analytics Mongo DB Connection String
 
-#### trackingLiveConnectionString
-Tracking Mongo DB Connection String
+**trackingLiveConnectionString:** Tracking Mongo DB Connection String
 
-#### trackingContactConnectionString
-Tracking Contact Mongo DB Connection String
+**trackingContactConnectionString:** Tracking Contact Mongo DB Connection String
 
-#### trackingHistoryMongoDbConnectionString
-Tracking History Mongo DB Connection String
+**trackingHistoryMongoDbConnectionString:** Tracking History Mongo DB Connection String
 
-#### repAuthenticationApiKey
-Reporting Authentication API Key
+**repAuthenticationApiKey:** Reporting Authentication API Key
 
-#### searchServiceName
-Azure Search Instance Name
+**searchServiceName:** Azure Search Instance Name
 
-#### redisCacheName
-Redis Cache Instance Name
+**redisCacheName:** Redis Cache Instance Name
 
-#### securityClientIp
-    "value": "0.0.0.0"
+**securityClientIp:** "value": "0.0.0.0"
 
-#### securityClientIpMask
-      "value": "0.0.0.0"
+**securityClientIpMask:** "value": "0.0.0.0"
 
