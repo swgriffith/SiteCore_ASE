@@ -1,0 +1,73 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+  "parameters":{ 
+    "Location": {
+      "value": "<Deployment Location>"
+    },
+    "AppName": {
+      "value": "<Base Name Used for Various Components>"
+    },
+    "ASE-Name": {
+      "value": "<App Service Environment Name>"
+    },
+    "ASE-ResourceID":{
+        "value": "<Resource ID for the ASE>"
+    },
+    "ASE-Plan-ResourceID":{
+      "value": "<Resource ID for the pre-created App Service Plan>"
+    },
+     "sitecoreAdminPassword":{
+         "value": "<Password for the sitecore admin user>"
+     },
+     "sqlServerFqdn":{
+         "value":"<Name to be used for the Azure SQL instance>"
+     },
+     "sqlServerLogin":{
+         "value":"<SQL Server user ID>"
+     },
+    "sqlServerPassword":{
+         "value": "<SQL Server Password>"
+     },
+     "sitecoreDBUserName":{
+         "value":"<Base SiteCore DB User Name>"
+     }, 
+     "sitecoreDBPassword":{
+         "value": "<Base SiteCore DB Password>"
+     },
+    "repReportingSqlDatabaseUserName":{
+         "value":"<Reporting Database User Name>"
+     },
+    "repReportingSqlDatabasePassword": {
+         "value":"<Reporting Database Password>"
+     },
+    "analyticsConnectionString":{
+         "value": "<Analytics Mongo DB Connection String>"
+     },
+     "trackingLiveConnectionString":{
+         "value": "<Tracking Mongo DB Connection String>"
+     },
+     "trackingContactConnectionString":{
+         "value": "<Tracking Contact Mongo DB Connection String>"
+     },
+    "trackingHistoryMongoDbConnectionString":{
+         "value": "<Tracking History Mongo DB Connection String>"
+     },
+     "repAuthenticationApiKey":{
+         "value": "<Reporting Authentication API Key>"
+     },
+     "searchServiceName":{
+         "value":"<Azure Search Instance Name>"
+     }, 
+     "redisCacheName":{
+         "value":"<Redis Cache Instance Name>"
+     },          
+     "securityClientIp": {
+      "value": "0.0.0.0"
+    },
+    "securityClientIpMask": {
+      "value": "0.0.0.0"
+    }  
+    
+  }
+}
