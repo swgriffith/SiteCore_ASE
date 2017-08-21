@@ -1,11 +1,11 @@
-# Deploy SiteCore to Azure App Service Environment v1 or v2
-In order to deploy Site Core into an Azure App Service Environment (ASE) the Azure Marketplace Template will not work. The Marketplace template assumes it is creating the App Service Plan, which then doesnt allow you to choose a plan in an ASE. This template allows you to deploy SiteCore into a pre-existing ASE (v1 or v2) and App Service Plan.
+# Deploy Sitecore to Azure App Service Environment v1 or v2
+In order to deploy Sitecore into an Azure App Service Environment (ASE) the Azure Marketplace Template will not work. The Marketplace template assumes it is creating the App Service Plan, which then doesnt allow you to choose a plan in an ASE. This template allows you to deploy Sitecore into a pre-existing ASE (v1 or v2) and App Service Plan.
 
 ## Deployment
 In order to deploy this template you will need the following:
 
-1) SiteCore MSDeploy packages for CM, CD and REP (This can be obtained from SiteCore)
-2) SiteCore License.xml file, which is pulled in by the PowerShell deployment script
+1) Sitecore MSDeploy packages for CM, CD and REP (This can be obtained from Sitecore)
+2) Sitecore License.xml file, which is pulled in by the PowerShell deployment script
 3) Existing App Service Environment (v1 or v2)
 4) Existing App Service Plan within the above mentioned ASE
 
@@ -36,9 +36,9 @@ The following parameters are required to deploy this template:
 
 **sqlServerPassword:** SQL Server Password
 
-**sitecoreDBUserName:** Base SiteCore DB User Name
+**sitecoreDBUserName:** Base Sitecore DB User Name
 
-**sitecoreDBPassword:** Base SiteCore DB Password
+**sitecoreDBPassword:** Base Sitecore DB Password
 
 **repReportingSqlDatabaseUserName:** Reporting Database User Name
 
